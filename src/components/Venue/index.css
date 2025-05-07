@@ -1,0 +1,28 @@
+.venue{
+    display: flex;
+    margin-top: 1.25rem;
+    gap: 1rem;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.25rem;
+}
+
+.venue__title {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.venue__list {
+    margin: 0;
+    padding: 0;
+}
+
+.venue__item {
+    list-style-type: none;
+}
+
+.venue__photo {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+  }

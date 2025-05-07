@@ -1,0 +1,26 @@
+.instructor {
+    display: flex;
+    margin-top: 1.25rem;
+    gap: 1rem;
+}
+
+.instructor__title {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.instructor__list {
+    margin: 0;
+    padding: 0;
+}
+
+.instructor__item {
+    list-style-type: none;
+}
+
+.instructor__photo {
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+    clip-path: circle(50% at 50% 50%);
+  }

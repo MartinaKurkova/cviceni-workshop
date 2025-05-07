@@ -1,0 +1,16 @@
+.price__container {
+    background-color: rebeccapurple;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    padding: 1rem;
+    font-size: 1.7em;
+}
+
+.date, .price {
+    margin: 0;
+    padding: 0;
+}
