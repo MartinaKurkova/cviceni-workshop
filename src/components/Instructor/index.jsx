@@ -4,7 +4,7 @@ export const Instructor = (props) => {
     return (
         <div className="instructor">
             <div className="instructor__img">
-                <img src={props.avatar} alt="instructor portrait" className="instructor__photo" />
+                <img src={props.avatar} alt="instructor portrait" className="instructor__photo"/>
             </div>
             <div className="instructor__text">
                 <h3 className="instructor__title">Instruktor:</h3>
